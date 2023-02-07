@@ -1,10 +1,9 @@
 package main
 
 import (
-	_ "github.com/freelanceadm/gitflow/pkg/log"
-	"github.com/sirupsen/logrus"
+	log "pipeline/pkg/logs"
 )
 
 func main() {
-	logrus.Info("vim-go")
+	log.L.Info("vim-go")
 }
