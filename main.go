@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	_ "github.com/freelanceadm/gitflow/pkg/log"
+	"github.com/sirupsen/logrus"
+)
 
 func main() {
-	fmt.Println("vim-go")
+	logrus.Info("vim-go")
 }
